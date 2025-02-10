@@ -1,0 +1,11 @@
+Explicacion de la query linea por linea:
+
+1º. Seleccion de la columna "producto" y la suma de la columna "cantidad" renombrada como "total_vendido" de la tabla "ventas".
+
+3º. Filtramos los datos donde la columna "fecha" sea mayor o igual a la fecha actual menos 1 mes.
+
+4º. Agrupamos los datos por la columna "producto".
+
+5º. Ordenamos los datos de forma descendente por la columna "total_vendido".
+
+6º. Limitamos la cantidad de filas a 3.
